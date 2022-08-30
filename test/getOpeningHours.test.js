@@ -1,4 +1,4 @@
-const { TestScheduler } = require('jest');
+// const { TestScheduler } = require('jest');
 const getOpeningHours = require('../src/getOpeningHours');
 
 describe('Testes da função getOpeningHours', () => {
@@ -22,5 +22,6 @@ describe('Testes da função getOpeningHours', () => {
   });
   test('Testa se passando os argumentos Wednesday e 09:00-PM retorna a string esperada', () => {
     expect(getOpeningHours('Wednesday', '09:00-PM')).toMatch(/The zoo is closed/);
-  })
+  });
+  test('Testa ')
 });
